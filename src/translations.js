@@ -62,6 +62,7 @@ const statCardLocales = ({ name, apostrophe }) => {
       sr: `GitHub статистика корисника ${encodedName}`,
       "sr-latn": `GitHub statistika korisnika ${encodedName}`,
       no: `GitHub-statistikk for ${encodedName}`,
+      be: `Статыстыка GitHub карыстальніка ${encodedName}`,
     },
     "statcard.ranktitle": {
       en: `${encodedName}'${apostrophe} GitHub Rank`,
@@ -110,6 +111,7 @@ const statCardLocales = ({ name, apostrophe }) => {
       sr: `Ранк корисника ${encodedName}`,
       "sr-latn": `Rank korisnika ${encodedName}`,
       no: `GitHub-statistikk for ${encodedName}`,
+      be: `Рэйтынг GitHub карыстальніка ${encodedName}`,
     },
     "statcard.totalstars": {
       en: "Total Stars Earned",
@@ -158,6 +160,7 @@ const statCardLocales = ({ name, apostrophe }) => {
       sr: "Број освојених звездица",
       "sr-latn": "Broj osvojenih zvezdica",
       no: "Totalt antall stjerner",
+      be: "Зароблена зорак агулам",
     },
     "statcard.commits": {
       en: "Total Commits",
@@ -206,6 +209,7 @@ const statCardLocales = ({ name, apostrophe }) => {
       sr: "Укупно commit-ова",
       "sr-latn": "Ukupno commit-ova",
       no: "Totalt antall commits",
+      be: "Агульная колькасць камітаў",
     },
     "statcard.prs": {
       en: "Total PRs",
@@ -254,6 +258,7 @@ const statCardLocales = ({ name, apostrophe }) => {
       sr: "Укупно PR-ова",
       "sr-latn": "Ukupno PR-ova",
       no: "Totalt antall PR",
+      be: "Агулам запытаў на змены, PRаў",
     },
     "statcard.issues": {
       en: "Total Issues",
@@ -302,6 +307,7 @@ const statCardLocales = ({ name, apostrophe }) => {
       sr: "Укупно пријављених проблема",
       "sr-latn": "Ukupno prijavljenih problema",
       no: "Totalt antall issues",
+      be: "Усяго пытанняў",
     },
     "statcard.contribs": {
       en: "Contributed to (last year)",
@@ -350,6 +356,7 @@ const statCardLocales = ({ name, apostrophe }) => {
       sr: "Доприноси (прошла година)",
       "sr-latn": "Doprinosi (prošla godina)",
       no: "Bidro til (i fjor)",
+      be: "Уклад (за мінулы год)",
     },
     "statcard.reviews": {
       en: "Total PRs Reviewed",
@@ -372,7 +379,7 @@ const statCardLocales = ({ name, apostrophe }) => {
       sa: "समीक्षिताः कुल-पीआर",
       hu: "Összes ellenőrzött PR",
       it: "PR totali esaminati",
-      ja: "レビューされた PR の総数",
+      ja: "レビューした PR の総数",
       kr: "검토된 총 PR",
       nl: "Totaal beoordeelde PR's",
       "pt-pt": "Total de PRs revistos",
@@ -398,6 +405,7 @@ const statCardLocales = ({ name, apostrophe }) => {
       sr: "Укупно прегледаних PR-ова",
       "sr-latn": "Ukupno pregledanih PR-ova",
       no: "Totalt antall vurderte PR",
+      be: "Агулам разгледжана PR",
     },
     "statcard.discussions-started": {
       en: "Total Discussions Started",
@@ -420,7 +428,7 @@ const statCardLocales = ({ name, apostrophe }) => {
       sa: "प्रारब्धाः कुल-चर्चाः",
       hu: "Összes megkezdett megbeszélés",
       it: "Discussioni totali avviate",
-      ja: "開始されたディスカッションの総数",
+      ja: "開始したディスカッションの総数",
       kr: "시작된 토론 총 수",
       nl: "Totaal gestarte discussies",
       "pt-pt": "Total de Discussões Iniciadas",
@@ -446,6 +454,7 @@ const statCardLocales = ({ name, apostrophe }) => {
       sr: "Укупно покренутих дискусија",
       "sr-latn": "Ukupno pokrenutih diskusija",
       no: "Totalt antall startede diskusjoner",
+      be: "Агульная колькасць пачатых абмеркаванняў",
     },
     "statcard.discussions-answered": {
       en: "Total Discussions Answered",
@@ -468,7 +477,7 @@ const statCardLocales = ({ name, apostrophe }) => {
       sa: "उत्तरिताः कुल-चर्चाः",
       hu: "Összes megválaszolt megbeszélés",
       it: "Discussioni totali risposte",
-      ja: "回答されたディスカッションの総数",
+      ja: "回答したディスカッションの総数",
       kr: "답변된 토론 총 수",
       nl: "Totaal beantwoorde discussies",
       "pt-pt": "Total de Discussões Respondidas",
@@ -494,6 +503,7 @@ const statCardLocales = ({ name, apostrophe }) => {
       sr: "Укупно одговорених дискусија",
       "sr-latn": "Ukupno odgovorenih diskusija",
       no: "Totalt antall besvarte diskusjoner",
+      be: "Усяго адказаў у абмеркаваннях",
     },
     "statcard.prs-merged": {
       en: "Total PRs Merged",
@@ -541,6 +551,7 @@ const statCardLocales = ({ name, apostrophe }) => {
       sr: "Укупно спојених PR-ова",
       "sr-latn": "Ukupno spojenih PR-ova",
       no: "Totalt antall sammenslåtte PR",
+      be: "Усяго PR прынята",
     },
     "statcard.prs-merged-percentage": {
       en: "Merged PRs Percentage",
@@ -588,6 +599,7 @@ const statCardLocales = ({ name, apostrophe }) => {
       sr: "Проценат спојених PR-ова",
       "sr-latn": "Procenat spojenih PR-ova",
       no: "Prosentandel sammenslåtte PR",
+      be: "Адсотак аб'яднаных PR",
     },
   };
 };
@@ -640,6 +652,7 @@ const repoCardLocales = {
     sr: "Шаблон",
     "sr-latn": "Šablon",
     no: "Mal",
+    be: "Шаблон",
   },
   "repocard.archived": {
     en: "Archived",
@@ -688,6 +701,7 @@ const repoCardLocales = {
     sr: "Архивирано",
     "sr-latn": "Arhivirano",
     no: "Arkivert",
+    be: "Архіваваны",
   },
 };
 
@@ -739,6 +753,7 @@ const langCardLocales = {
     sr: "Најкоришћенији језици",
     "sr-latn": "Najkorišćeniji jezici",
     no: "Mest brukte språk",
+    be: "Найбольш ужываныя мовы",
   },
   "langcard.nodata": {
     en: "No languages data.",
@@ -787,6 +802,7 @@ const langCardLocales = {
     sr: "Нема података о језицима.",
     "sr-latn": "Nema podataka o jezicima.",
     no: "Ingen språkdata.",
+    be: "Няма дадзеных пра мовы.",
   },
 };
 
@@ -838,6 +854,7 @@ const wakatimeCardLocales = {
     sr: "WakaTime статистика",
     "sr-latn": "WakaTime statistika",
     no: "WakaTime-statistikk",
+    be: "Статыстыка WakaTime",
   },
   "wakatimecard.lastyear": {
     en: "last year",
@@ -886,6 +903,7 @@ const wakatimeCardLocales = {
     sr: "Прошла год.",
     "sr-latn": "Prošla god.",
     no: "I fjor",
+    be: "мінулы год",
   },
   "wakatimecard.last7days": {
     en: "last 7 days",
@@ -934,6 +952,7 @@ const wakatimeCardLocales = {
     sr: "Претходних 7 дана",
     "sr-latn": "Prethodnih 7 dana",
     no: "Siste 7 dager",
+    be: "апошнія 7 дзён",
   },
   "wakatimecard.notpublic": {
     en: "WakaTime user profile not public",
@@ -956,7 +975,7 @@ const wakatimeCardLocales = {
     sa: "WakaTime उपयोगकर्ता-प्रोफ़ाइल सार्वजनिकं नास्ति",
     hu: "A WakaTime felhasználói profilja nem nyilvános",
     it: "Profilo utente WakaTime non pubblico",
-    ja: "WakaTime ユーザープロファイルは公開されていません",
+    ja: "WakaTime ユーザープロフィールは公開されていません",
     kr: "WakaTime 사용자 프로필이 공개되지 않았습니다",
     nl: "WakaTime gebruikersprofiel niet openbaar",
     "pt-pt": "Perfil de utilizador WakaTime não público",
@@ -982,6 +1001,7 @@ const wakatimeCardLocales = {
     sr: "WakaTime профил корисника није јаван",
     "sr-latn": "WakaTime profil korisnika nije javan",
     no: "WakaTime brukerprofil ikke offentlig",
+    be: "Профіль карыстальніка WakaTime не публічны",
   },
   "wakatimecard.nocodedetails": {
     en: "User doesn't publicly share detailed code statistics",
@@ -1004,7 +1024,7 @@ const wakatimeCardLocales = {
     sa: "उपयोगकर्ता विस्तृत-कोड-सांख्यिकीं सार्वजनिकरूपेण न दर्शयति",
     hu: "A felhasználó nem osztja meg nyilvánosan a részletes kódstatisztikákat",
     it: "L'utente non condivide pubblicamente statistiche dettagliate sul codice",
-    ja: "ユーザーは詳細なコード統計を公開しません",
+    ja: "ユーザーは詳細なコード統計を公開していません",
     kr: "사용자는 자세한 코드 통계를 공개하지 않습니다",
     nl: "Gebruiker deelt geen gedetailleerde code-statistieken",
     "pt-pt":
@@ -1032,6 +1052,7 @@ const wakatimeCardLocales = {
     sr: "Корисник не дели јавно детаљну статистику кода",
     "sr-latn": "Korisnik ne deli javno detaljnu statistiku koda",
     no: "Brukeren deler ikke detaljert kodestatistikk offentlig",
+    be: "Карыстальнік не дзеліцца падрабязнай статыстыкай кода публічна",
   },
   "wakatimecard.nocodingactivity": {
     en: "No coding activity this week",
@@ -1080,6 +1101,7 @@ const wakatimeCardLocales = {
     sr: "Током ове недеље није било никаквих активности",
     "sr-latn": "Tokom ove nedelje nije bilo nikakvih aktivnosti",
     no: "Ingen kodeaktivitet denne uken",
+    be: "На гэтым тыдні не было актыўнасці",
   },
 };
 
